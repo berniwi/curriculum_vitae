@@ -9709,6 +9709,10 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: #2D3047;
@@ -9747,7 +9751,56 @@ p {
 .p--normal {
   font-weight: 300;
   font-size: 18px;
-  color: red;
+}
+
+.presentacion {
+  background-color: #7CEA9C;
+  width: 20vw;
+  height: 150vh;
+  position: fixed;
+  text-align: center;
+}
+
+.presentacion__img {
+  border-radius: 100px;
+  width: 70%;
+  margin-top: 22vh;
+  margin-bottom: 3vh;
+}
+
+.content {
+  padding-left: 20vw;
+}
+
+.section__container {
+  border-bottom: solid 2px #C0C0C0;
+  padding: 15vh 0 24vh 0;
+  margin: 0 8vw 0 5vw;
+}
+.section__container h3 {
+  padding-top: 10vh;
+  padding-bottom: 1vh;
+}
+.section__container .year {
+  float: right;
+  margin-top: -4vh;
+}
+.section__container .paragraph {
+  padding-top: 5vh;
+}
+.section__container .paragraph--contact {
+  padding-top: 3vh;
+}
+
+.info ul li {
+  display: inline-table;
+  padding: 4vh 0 10vh 0;
+}
+.info p {
+  padding-bottom: 8vh;
+}
+.info i {
+  padding-right: 1vw;
 }
 
 /*# sourceMappingURL=main.css.map */
