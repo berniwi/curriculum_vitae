@@ -9711,12 +9711,14 @@ table {
 
 body {
   font-family: "Lato", sans-serif;
+  color: #2D3047;
+  line-height: 25px;
+  font-weight: 400;
 }
 
 h1 {
   font-size: 70px;
   font-weight: 900;
-  color: #071013;
 }
 
 h2 {
@@ -9726,6 +9728,26 @@ h2 {
 
 h3 {
   font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.li--bold {
+  font-weight: 700;
+}
+
+.li--black {
+  color: #071013;
+}
+
+.p--normal {
+  font-weight: 300;
+  font-size: 18px;
+  color: red;
 }
 
 /*# sourceMappingURL=main.css.map */

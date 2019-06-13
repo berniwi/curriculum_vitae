@@ -1,11 +1,13 @@
 body{
   font-family: $lato;
+  color: $cv_blue;
+  line-height: 25px;
+  font-weight: $letra_regular;
 }
 
 h1{
   font-size: $xx-large;
   font-weight: $letra_black;
-  color: $cv_black;
 }
 
 h2{
@@ -16,5 +18,23 @@ h2{
 h3{
   font-size: $large;
   font-weight: $letra_bold;
+}
+
+p{
+  font-weight: $letra_regular;
+  font-size: $medium;
+}
+
+.li--bold{
+  font-weight: $letra_bold;
+}
+
+.li--black{
+  color: $cv_black;
+}
+
+.p--normal{
+  font-weight: $letra_light;
+  font-size: $normal;
   color: red;
 }
