@@ -9877,5 +9877,13 @@ p {
     padding-top: 6vh;
   }
 }
+@media only screen and (min-width: 992px) {
+  footer {
+    display: none;
+  }
+}
+footer {
+  background-color: #7CEA9C;
+}
 
 /*# sourceMappingURL=main.css.map */
