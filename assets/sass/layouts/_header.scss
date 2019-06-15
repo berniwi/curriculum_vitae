@@ -1,14 +1,31 @@
-.presentacion{
-  background-color: $cv_green;
-  width: 20vw;
-  height: 150vh;
-  position: fixed;
-  text-align: center;
+@media screen and (min-width: 768px){
+  .presentacion{
+    background-color: $cv_green;
+    width: 20vw;
+    height: 150vh;
+    position: fixed;
+    text-align: center;
+  }
+
+  .presentacion__img{
+    border-radius: 7vw;
+    width: 70%;
+    margin-top: 22vh;
+    margin-bottom: 3vh;
+  }
 }
 
-.presentacion__img{
-  border-radius: 100px;
-  width: 70%;
-  margin-top: 22vh;
-  margin-bottom: 3vh;
+@media screen and (max-width: 768px){
+  .presentacion{
+    background-color: $cv_green;
+    width: 20vw;
+    height: 20vh;
+    position: fixed;
+    text-align: center;
+  }
+
+  .presentacion__img{
+    border-radius: 7vw;
+    width: 10vw;
+  }
 }
