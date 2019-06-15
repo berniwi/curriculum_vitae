@@ -14,9 +14,22 @@ $letra_regular: 400;
 $letra_bold: 700;
 $letra_black: 900;
 
-//size
-$xx-large: 5vw;
-$x-large: 3.5vw;
-$large: 2vw;
-$medium: 1.4vw;
-$normal: 1.2vw;
+// $cv_vw: 1vw;
+
+@media only screen and (max-width: 992px){
+  //size
+  $xx-large: 10vw;
+  $x-large: 3.5vw;
+  $large: 2vw;
+  $medium: 1.4vw;
+  $normal: 1.2vw;
+}
+
+@media only screen and (min-width: 992px){
+  //size
+  $xx-large: 5vw;
+  $x-large: 3.5vw;
+  $large: 2vw;
+  $medium: 1.4vw;
+  $normal: 1.2vw;
+}

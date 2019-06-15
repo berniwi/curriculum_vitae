@@ -1,4 +1,25 @@
-@media screen and (min-width: 768px){
+@media only screen and (max-width: 992px){
+  .presentacion{
+    background-color: $cv_green;
+    height: 20vh;
+    width: 30vw;
+    position: fixed;
+    text-align: center;
+    ul{
+      display: none;
+    }
+  }
+
+  .presentacion__img{
+    border-radius: 100px;
+    width: 70%;
+    margin-top: 2vh;
+  }
+}
+
+
+
+@media only screen and (min-width: 992px){
   .presentacion{
     background-color: $cv_green;
     width: 20vw;
@@ -12,20 +33,5 @@
     width: 70%;
     margin-top: 22vh;
     margin-bottom: 3vh;
-  }
-}
-
-@media screen and (max-width: 768px){
-  .presentacion{
-    background-color: $cv_green;
-    width: 20vw;
-    height: 20vh;
-    position: fixed;
-    text-align: center;
-  }
-
-  .presentacion__img{
-    border-radius: 7vw;
-    width: 10vw;
   }
 }

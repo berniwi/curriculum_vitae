@@ -9754,7 +9754,25 @@ p {
   font-size: 1.2vw;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (max-width: 992px) {
+  .presentacion {
+    background-color: #7CEA9C;
+    height: 20vh;
+    width: 30vw;
+    position: fixed;
+    text-align: center;
+  }
+  .presentacion ul {
+    display: none;
+  }
+
+  .presentacion__img {
+    border-radius: 100px;
+    width: 70%;
+    margin-top: 2vh;
+  }
+}
+@media only screen and (min-width: 992px) {
   .presentacion {
     background-color: #7CEA9C;
     width: 20vw;
@@ -9770,25 +9788,59 @@ p {
     margin-bottom: 3vh;
   }
 }
-@media screen and (max-width: 768px) {
-  .presentacion {
-    background-color: #7CEA9C;
-    width: 20vw;
-    height: 20vh;
+@media only screen and (min-width: 992px) {
+  .content {
+    padding-left: 20vw;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .section__container {
+    border-bottom: solid 2px #C0C0C0;
+    width: 80vw;
+    padding-left: 15vw;
+  }
+  .section__container .year {
+    float: right;
+    margin-top: -4vh;
+  }
+  .section__container h3 {
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+  }
+  .section__container .paragraph--contact {
+    padding-top: 4vh;
+  }
+
+  .info {
     position: fixed;
-    text-align: center;
+    height: 20vh;
+    margin-left: 30vw;
+    padding-left: 4vw;
+    padding-top: 7vh;
+    background-color: #fff;
+    border: #fff;
+  }
+  .info ul li {
+    display: inline-table;
+    padding: 4vh 0 10vh 0;
+  }
+  .info p {
+    display: none;
+  }
+  .info i {
+    display: none;
   }
 
-  .presentacion__img {
-    border-radius: 7vw;
-    width: 10vw;
+  .work {
+    padding-top: 25vh;
+  }
+
+  .contact label {
+    padding-bottom: 3vh;
+    padding-top: 2vh;
   }
 }
-.content {
-  padding-left: 20vw;
-}
-
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .section__container {
     border-bottom: solid 2px #C0C0C0;
     padding: 15vh 0 24vh 0;
