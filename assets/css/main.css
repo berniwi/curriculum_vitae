@@ -9786,6 +9786,10 @@ p {
     position: fixed;
     text-align: center;
   }
+  .presentacion ul li a {
+    color: #071013;
+    text-decoration: none;
+  }
 
   .presentacion__img {
     border-radius: 7vw;
@@ -9842,7 +9846,7 @@ p {
   }
 
   .work {
-    padding-top: 25vh;
+    padding-top: 30vh;
   }
 
   .contact label {
@@ -9894,7 +9898,7 @@ p {
 }
 footer {
   background-color: #7CEA9C;
-  padding-left: 45vw;
+  padding: 7vh 45vw;
 }
 
 /*# sourceMappingURL=main.css.map */
