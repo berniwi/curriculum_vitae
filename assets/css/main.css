@@ -9757,7 +9757,7 @@ p {
 @media only screen and (max-width: 992px) {
   .presentacion {
     background-color: #7CEA9C;
-    height: 20vh;
+    height: auto;
     width: 30vw;
     position: fixed;
     text-align: center;
@@ -9770,6 +9770,12 @@ p {
     border-radius: 100px;
     width: 70%;
     margin-top: 2vh;
+  }
+
+  .hamburguesa {
+    position: relative;
+    bottom: 0vh;
+    left: 11vw;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -9786,6 +9792,10 @@ p {
     width: 70%;
     margin-top: 22vh;
     margin-bottom: 3vh;
+  }
+
+  .hamburguesa {
+    display: none;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -9813,7 +9823,7 @@ p {
 
   .info {
     position: fixed;
-    height: 20vh;
+    height: 25vh;
     margin-left: 30vw;
     padding-left: 4vw;
     padding-top: 7vh;
@@ -9884,6 +9894,7 @@ p {
 }
 footer {
   background-color: #7CEA9C;
+  padding-left: 45vw;
 }
 
 /*# sourceMappingURL=main.css.map */
